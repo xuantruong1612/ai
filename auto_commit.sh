@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start date
-start_date="2024-11-01"
+start_date="2022-01-01"
 current_date=$start_date
 last_date=$start_date
 
@@ -15,15 +15,15 @@ tasks=(
 )
 
 # Loop for 250 days
-for (( i=1; i<=20; i++ )); do
+for (( i=1; i<=700; i++ )); do
     # Determine if it's a commit day or not (60% chance of a commit)
     commit_day=$((RANDOM % 10))
-    if [ $commit_day -lt 4 ]; then
+    if [ $commit_day -lt 9 ]; then
         # Determine the number of commits for this day
-        num_commits=1
+        num_commits=10
         # On random days, make more than one commit
         if [ $((RANDOM % 5)) -eq 0 ]; then
-            num_commits=$((RANDOM % 3 + 2))  # Make 2 or 3 commits
+            num_commits=$((RANDOM % 8 + 7))  # Make 2 or 3 commits
         fi
 
         # Loop to make multiple commits
