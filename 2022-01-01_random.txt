@@ -1,2 +1,2 @@
 Task 5: Writing a random number
-12285
+18124
