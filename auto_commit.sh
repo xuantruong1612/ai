@@ -23,7 +23,7 @@ for (( i=1; i<=700; i++ )); do
         num_commits=10
         # On random days, make more than one commit
         if [ $((RANDOM % 5)) -eq 0 ]; then
-            num_commits=$((RANDOM % 8 + 7))  # Make 2 or 3 commits
+            num_commits=$((RANDOM % 9 + 7))  # Make 2 or 3 commits
         fi
 
         # Loop to make multiple commits
