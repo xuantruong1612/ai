@@ -1,2 +1,2 @@
 Task 5: Writing a random number
-11692
+25687
