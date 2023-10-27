@@ -1,2 +1,2 @@
 Task 5: Writing a random number
-32126
+24073
