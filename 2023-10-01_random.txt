@@ -1,2 +1,2 @@
 Task 5: Writing a random number
-14330
+13293
