@@ -1,2 +1,2 @@
 Task 5: Writing a random number
-16734
+25767
