@@ -1,2 +1,2 @@
 Task 5: Writing a random number
-30187
+31251
