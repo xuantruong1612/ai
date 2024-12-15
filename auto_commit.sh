@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Start date
 start_date="2024-10-01"
